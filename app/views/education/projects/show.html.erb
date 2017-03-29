@@ -6,6 +6,8 @@
      object: @project} %>
 
   <%= render "education/layouts/edit_popup" %>
+  <%= render "add_project_member_modal",
+    users: @show_projects.users, project: @project %>
 <% else %>
   <section id="page-title">
     <div class="container clearfix">

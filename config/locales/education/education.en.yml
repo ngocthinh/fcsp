@@ -79,6 +79,8 @@ en:
         team_member3_role: "Sales"
         team_member4_name: "Nix Maxwell"
         team_member4_role: "Support"
+      lastest_courses:
+        last_courses: "Last courses"
     trainings:
       training_not_found: "Training Not Found."
       index:
@@ -197,6 +199,11 @@ en:
       detail_course:
         start_date: "Start date : "
         end_date: "End date : "
+        course_info: "Course info"
+      connection_course:
+        techniques: "Techniques"
+      other_course:
+        other_courses: "Other Course"
     techniques:
       new:
         create_technique: "Create technique"

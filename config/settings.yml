@@ -106,7 +106,7 @@ courses:
   modal_detail: "#modal_detail"
   home_limit: 4
   index_limit: 8
-  max_course_detail: 30
+  max_course_detail: 80
   truncate_other_course: 200
   truncate_detail_course: 200
   other_coures_limit: 12

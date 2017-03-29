@@ -62,6 +62,8 @@ vi:
         title: "Nhận xét từ khách hàng"
       our_team:
         title: "Gặp gỡ nhóm của chúng tôi"
+      lastest_courses:
+        last_courses: "Các khóa học cuối"
     trainings:
       training_not_found: "Không tìm thấy khóa đào tạo."
       index:
@@ -177,6 +179,12 @@ vi:
         search: "Tìm kiếm khóa học"
       index:
         no_courses: "Không tìm thấy khóa học"
+      detail_course:
+        course_info: "Chi tiết khóa học"
+      connection_course:
+        techniques: "Công nghệ"
+      other_course:
+        other_courses: "Các khóa học khác"
     techniques:
       new:
         create_technique: "Tạo công nghệ"

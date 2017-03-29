@@ -55,7 +55,7 @@ RSpec.describe Education::ProjectMembersController, type: :controller do
         params: {id: project_member.id, user_id: user1.id, project_id: project.id}
     end
     it "get a flash error" do
-      expect(flash[:danger]).to eq I18n.t("education.projects.not_found")
+      expect(flash[:danger]).to be_present
     end
   end
 
@@ -65,7 +65,7 @@ RSpec.describe Education::ProjectMembersController, type: :controller do
         params: {id: project_member.id, user_id: -1, project_id: project.id}
     end
     it "get a flash error" do
-      expect(flash[:danger]).to eq I18n.t("education.project_members.not_found")
+      expect(flash[:danger]).to be_present
     end
   end
 end

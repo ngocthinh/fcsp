@@ -1,12 +1,15 @@
 <div class="row clearfix">
   <div class="col-md-12">
     <div class="tabs tabs-alt clearfix" id="tabs-profile">
-      <ul class="tab-nav clearfix">
+      <ul class="tab-nav clearfix company-tab">
         <li><a href="#tab-info"><i class="icon-rss2"></i> <%= t ".info" %></a></li>
         <li><a href="#tab-news"><i class="icon-pencil2"></i> <%= t ".news" %></a></li>
         <li><a href="#tab-jobs"><i class="icon-reply"></i> <%= t ".jobs" %></a></li>
         <li><a href="#tab-members"><i class="icon-users"></i> <%= t ".members" %></a></li>
         <li><a href="#tab-stats"><i class="icon-users"></i> <%= t ".stats" %></a></li>
+        <div class="share-company">
+          <%= social_share_button_tag @company.name %>
+        </div>
       </ul>
       <div class="tab-container">
         <div class="tab-content clearfix" id="tab-info">

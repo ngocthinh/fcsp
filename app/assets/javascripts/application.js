@@ -31,3 +31,4 @@
 //= require friend_ship
 //= require user_portfolios
 //= require cocoon
+//= require users
